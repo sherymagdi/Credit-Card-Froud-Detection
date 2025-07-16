@@ -36,4 +36,4 @@ if st.button("Predict"):
         processed = preprocess_text([user_input])
         vect_text = vectorizer.transform(processed)
         prediction = model.predict(vect_text)[0]
-        st.success(f"🔍 Prediction: *{prediction}*"
+        st.success(f"🔍 Prediction: *{prediction}*")
