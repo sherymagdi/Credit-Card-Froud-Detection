@@ -2,7 +2,6 @@ import streamlit as st
 import re
 import joblib
 from nltk.corpus import stopwords
-from tqdm import tqdm
 import nltk
 
 # Download stopwords if not already present
