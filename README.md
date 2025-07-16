@@ -10,8 +10,8 @@
 - Streamlit web demo
 
 ## Dataset
-**Kaggle Fake News Dataset** (20,800 samples, balanced classes)  
-Columns: `title`, `text`, `label` (1=fake, 0=real)
+**Kaggle Fake News Dataset** (44,919 samples, balanced classes)  
+Columns: `title`, `text`, `subject`, `date`, `class` (1=fake, 0=real)
 
 ## Installation
 ```bash
