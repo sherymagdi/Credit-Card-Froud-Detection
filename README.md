@@ -5,7 +5,7 @@
 
 ## Features
 - Preprocessing pipeline (text cleaning, tokenization)
-- Multiple models: Logistic Regression, LSTM, BERT
+- Multiple models: Logistic Regression, Decision Tree Classification
 - Evaluation metrics: Accuracy, Precision, Recall, F1
 - Streamlit web demo
 
