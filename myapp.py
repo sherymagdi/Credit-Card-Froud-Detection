@@ -9,7 +9,7 @@ nltk.download('stopwords')
 
 # # Load model and vectorizer
 vectorizer = joblib.load('./Models/Vectorizer.pkl')
-# model = joblib.load('./Models/DecisionTreeClassification.pkl')
+model = joblib.load('./Models/DecisionTreeClassification.pkl')
 
 # Text preprocessing function
 def preprocess_text(text_data):
@@ -34,5 +34,5 @@ if st.button("Predict"):
     else:
         processed = preprocess_text([user_input])
         vect_text = vectorizer.transform(processed)
-        # prediction = model.predict(vect_text)[0]
+        prediction = model.predict(vect_text)
         st.success(f"🔍 Prediction: *{vect_text}*")
